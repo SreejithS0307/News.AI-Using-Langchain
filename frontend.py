@@ -50,9 +50,7 @@ if input_label:
             res = text_cleaner(response)
             st.write(f'Answer: {res}')
         
-        if query_label.lower() == "stop the application":
-            st.write("Stopping the application...")
-            st.stop()
+        
 
     st.markdown('### Source')
     st.write(input_label)     
